@@ -1,0 +1,123 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,600);
+
+
+body{
+	background: url(../img/cock.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.wrapper{
+	width: 95%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Bree Serif', serif;
+	color: #73000A;
+}
+
+p, li, a{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+}
+
+header{
+
+	h1{
+		font-size: 3em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	article{
+		background: black;
+		opacity: 0.9;
+		color: white;
+		display: block;
+		width: 75%;
+		padding: 20px 40px;
+		font-weight: 400;
+		font-size: 1.1em;
+		margin: 0 auto;
+		@include border-radius(7px);
+
+		p:first-child{
+			font-weight: 600;
+			font-size: 1.2em;
+			text-align: center;
+		}
+	}
+
+}
+
+
+.parents{
+	margin-top: 80px;
+
+	h2{
+		font-size: 1.9em;
+		text-align: center;
+	}
+}
+
+
+.justify, .align{
+
+	margin-bottom: 120px;
+
+	nav{
+		vertical-align: middle;
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		
+		ul{
+			list-style: none;
+			padding: 0px;
+		}
+
+		li{
+			margin: 20px 0;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+	}
+}
+
+.container, .a_container{
+	vertical-align: middle;
+	@include border-radius(7px);
+	height: 250px;
+	opacity: 0.9;
+	display: inline-block;
+	background: black;
+	width: 65%;
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	div{
+		width: 30px;
+		height: 30px;
+		@include border-radius(50%);
+		background: #73000A;
+		margin: 40px 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
