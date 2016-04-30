@@ -14,6 +14,19 @@ body{
 	margin: 0 auto;
 }
 
+@mixin container(){
+	vertical-align: middle;
+	@include border-radius(7px);
+	height: 250px;
+	opacity: 0.9;
+	display: inline-block;
+	background: black;
+	width: 65%;
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 h1, h2, h3, h4{
 	font-family: 'Bree Serif', serif;
 	color: #73000A;
@@ -90,22 +103,26 @@ header{
 	}
 }
 
-.container, .a_container{
-	vertical-align: middle;
-	@include border-radius(7px);
-	height: 250px;
-	opacity: 0.9;
-	display: inline-block;
-	background: black;
-	width: 65%;
-	display: inline-flex;
-	justify-content: flex-start;
-	align-items: center;
+.container{
+	@include container();
 
 	div{
-		width: 30px;
-		height: 30px;
-		@include border-radius(50%);
+		width: 40px;
+		height: 40px;
+		// @include border-radius(50%);
+		background: #73000A;
+		margin: 40px 20px;
+	}
+}
+
+
+.a_container{
+	@include container();
+
+	div{
+		width: 125px;
+		height: 50px;
+		// @include border-radius(50%);
 		background: #73000A;
 		margin: 40px 20px;
 	}

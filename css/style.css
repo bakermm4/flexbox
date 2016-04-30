@@ -14,25 +14,25 @@ body {
   margin: 0 auto;
 }
 
-/* line 17, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 h1, h2, h3, h4 {
   font-family: 'Bree Serif', serif;
   color: #73000A;
 }
 
-/* line 22, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
 p, li, a {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.8em;
 }
 
-/* line 29, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 header h1 {
   font-size: 3em;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 35, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 header article {
   background: black;
   opacity: 0.9;
@@ -47,50 +47,50 @@ header article {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
-/* line 47, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 header article p:first-child {
   font-weight: 600;
   font-size: 1.2em;
   text-align: center;
 }
 
-/* line 57, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .parents {
   margin-top: 80px;
 }
-/* line 60, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .parents h2 {
   font-size: 1.9em;
   text-align: center;
 }
 
-/* line 67, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .justify, .align {
   margin-bottom: 120px;
 }
-/* line 71, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .justify nav, .align nav {
   vertical-align: middle;
   display: inline-block;
   width: 25%;
   text-align: center;
 }
-/* line 77, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .justify nav ul, .align nav ul {
   list-style: none;
   padding: 0px;
 }
-/* line 82, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .justify nav li, .align nav li {
   margin: 20px 0;
 }
-/* line 86, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 .justify nav a, .align nav a {
   text-decoration: none;
 }
 
-/* line 93, ../scss/style.scss */
-.container, .a_container {
+/* line 106, ../scss/style.scss */
+.container {
   vertical-align: middle;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
@@ -104,13 +104,33 @@ header article p:first-child {
   justify-content: flex-start;
   align-items: center;
 }
-/* line 105, ../scss/style.scss */
-.container div, .a_container div {
-  width: 30px;
-  height: 30px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+/* line 109, ../scss/style.scss */
+.container div {
+  width: 40px;
+  height: 40px;
+  background: #73000A;
+  margin: 40px 20px;
+}
+
+/* line 119, ../scss/style.scss */
+.a_container {
+  vertical-align: middle;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  height: 250px;
+  opacity: 0.9;
+  display: inline-block;
+  background: black;
+  width: 65%;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* line 122, ../scss/style.scss */
+.a_container div {
+  width: 125px;
+  height: 50px;
   background: #73000A;
   margin: 40px 20px;
 }
