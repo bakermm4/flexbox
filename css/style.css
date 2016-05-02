@@ -134,3 +134,14 @@ header article p:first-child {
   background: #73000A;
   margin: 40px 20px;
 }
+
+/* line 132, ../scss/style.scss */
+.explanations {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 136, ../scss/style.scss */
+.explanations p {
+  font-weight: 600;
+}
